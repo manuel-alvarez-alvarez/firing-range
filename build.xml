@@ -96,7 +96,7 @@
     </copy>
     <!-- copy html pages -->
     <copy todir="${war.dir}/pages/">
-      <fileset dir="src/pages">
+      <fileset dir="src/main/resources/pages">
         <include name="**/*.*" />
       </fileset>
     </copy>
